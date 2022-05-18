@@ -6,20 +6,23 @@
         <title>Tristan Kensinger</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="./public/css/main.css">
+        <link 
+            rel="stylesheet" 
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900%7CSource+Sans+Pro:300,900&display=swap"
+        >
     </head>
 
     <body>
         <!-- header -->
         <header>
-            <div class="logo">
-                <img src="./public/imgs/profilePic.jpg" alt="a picture of Tristan Kensinger smiling">
-            </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#intro" class="nav__link">Intro</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                     <li class="nav__item"><a href="#academics" class="nav__link">Academics</a></li>
                     <li class="nav__item"><a href="#work" class="nav__link">Work Experience</a></li>
                     <li class="nav__item"><a href="#leadership" class="nav__link">Leadership</a></li>
@@ -33,17 +36,27 @@
             </nav>
         </header>
 
-        <!-- introduction -->
+        <!-- intro -->
         <section class="intro" id="intro">
             <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Tristan Kensinger</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">
+                Computer Science Student
+            </p>
+            <img src="./public/imgs/profilePic.jpg" alt="a picture of Tristan Kensinger smiling" class="intro__img">
+        </section>
+
+        <!-- about -->
+        <section class="about" id="about">
+            <h2 class="section__title section__title--about">
+                About me
+            </h2>
+            <p class="section__subtitle section__subtitle--about">
                 I am currently a senior studying computer science with a minor in pure & applied mathematics
                 at Stevens Institute of Technology. My graduation date is December 2022 and I am currently looking
                 for a software engineering role for the summer of 2022.
             </p>
-            <img src="./public/imgs/stevensLogo.png" alt="a picture of the Stevens Institute of Technology logo">
         </section>
 
         <!-- academics -->
@@ -51,24 +64,36 @@
             <h2 class="section__title section__title--academics">
                 My academic career
             </h2>
-            <p class="section__subtitle section__subtitle--academics">
-                3.91 GPA <br>
-                Bachelor of Science in Computer Science <br>
-                Minor in Pure and Applied Mathematics <br>
-                Relevant Course Work                
-            </p>
-            <ul class="academics-list">
-                <li class="academics-list__item">Algorithms</li>
-                <li class="academics-list__item">Data Structures</li>
-                <li class="academics-list__item">Web Development</li>
-                <li class="academics-list__item">Database Management Systems</li>
-                <li class="academics-list__item">Concurrent Programming</li>
-                <li class="academics-list__item">Computer Architecture</li>
-                <li class="academics-list__item">Operating Systems</li>
-                <li class="academics-list__item">Programming Languages</li>
-                <li class="academics-list__item">Artificial Intelligence</li>
-                <li class="academics-list__item">Discrete Mathematics</li>
-            </ul>
+            <div class="highlights">
+                <div class="highlight">
+                    <h3>GPA</h3>
+                    <p>3.91 out of 4.0</p>
+                </div>
+
+                <div class="highlight">
+                    <h3>Degrees</h3>
+                    <p>
+                        Bachelor of Science in Computer Science <br>
+                        Minor in Pure and Applied Mathematics
+                    </p>
+                </div>
+
+                <div class="highlight">
+                    <h3>Relevant Course Work</h3>
+                    <ul class="academics-list">
+                        <li class="academics-list__item">Algorithms</li>
+                        <li class="academics-list__item">Data Structures</li>
+                        <li class="academics-list__item">Web Development</li>
+                        <li class="academics-list__item">Database Management Systems</li>
+                        <li class="academics-list__item">Concurrent Programming</li>
+                        <li class="academics-list__item">Computer Architecture</li>
+                        <li class="academics-list__item">Operating Systems</li>
+                        <li class="academics-list__item">Programming Languages</li>
+                        <li class="academics-list__item">Artificial Intelligence</li>
+                        <li class="academics-list__item">Discrete Mathematics</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <!-- work -->
@@ -88,6 +113,7 @@
                         manual tasks using python. <br>
                         6/2020-8/2021
                     </p>
+                    <img src="./public/imgs/sanofiLogo.jpg" alt="a picture of the Sanofi Pasteur logo">
                 </div>
 
                 <div class="job">
@@ -98,6 +124,7 @@
                         equations into a readable format, and training new employees. <br>
                         9/2019-Present
                     </p>
+                    <img src="./public/imgs/stevensLogo.png" alt="a picture of the Stevens Institute of Technology logo">
                 </div>
             </div>
         </section>
@@ -115,6 +142,7 @@
                         the house is fully operational in accordance to safety procedures, managing upkeep of household
                         appliances, machinery, plumbing, water, heating, etc., and organizing room selection, and weekly cleanups.
                     </p>
+                    <img src="./public/imgs/chiPsiLogo.jpg" alt="a picture of the Chi Psi Fraternity logo">
                 </div>
 
                 <div class="leaderhip-job">
@@ -132,6 +160,7 @@
                         implementing my idea through finding a proctor, advertising the club, creating plans,
                         running meetings, tutoring those new to computer science, and assuring the club met school policies.
                     </p>
+                    <img src="./public/imgs/highschoolLogo.jpg" alt="a picture of the Pocono Mountain East High School logo">
                 </div>
             </div>
         </section>
@@ -149,6 +178,7 @@
                         emotional support with the organization 7 Cups, an online on-demand emotional health and therapy service. <br>
                         8/2020-Present
                     </p>
+                    <img src="./public/imgs/7cupsLogo.png" alt="a picture of the 7 Cups logo">
                 </div>
             </div>
         </section>
@@ -162,34 +192,34 @@
                 <li class="skills-list__item">Web Development</li>
                 <li class="skills-list__item">
                     <ul class="skills-list__list">
-                        <li class="skillslist__list__item">Javascript</li>
-                        <li class="skillslist__list__item">HTML</li>
-                        <li class="skillslist__list__item">CSS</li>
-                        <li class="skillslist__list__item">Node</li>
-                        <li class="skillslist__list__item">Ajax</li>
-                        <li class="skillslist__list__item">JQuery</li>
-                        <li class="skillslist__list__item">Handlebars</li>
+                        <li class="skills-list__list__item">Javascript</li>
+                        <li class="skills-list__list__item">HTML</li>
+                        <li class="skills-list__list__item">CSS</li>
+                        <li class="skills-list__list__item">Node</li>
+                        <li class="skills-list__list__item">Ajax</li>
+                        <li class="skills-list__list__item">JQuery</li>
+                        <li class="skills-list__list__item">Handlebars</li>
                     </ul>
                 </li>
-                <li class="skillslist__item">Programming Languages</li>
+                <li class="skills-list__item">Programming Languages</li>
                 <li class="skills-list__item">
-                    <ul class="skillslist__list">
-                        <li class="skillslist__list__item">Java</li>
-                        <li class="skillslist__list__item">Javascript</li>
-                        <li class="skillslist__list__item">Python</li>
-                        <li class="skillslist__list__item">C</li>
-                        <li class="skillslist__list__item">C++</li>
-                        <li class="skillslist__list__item">Erlang</li>
-                        <li class="skillslist__list__item">Ocaml</li>
+                    <ul class="skills-list__list">
+                        <li class="skills-list__list__item">Java</li>
+                        <li class="skills-list__list__item">Javascript</li>
+                        <li class="skills-list__list__item">Python</li>
+                        <li class="skills-list__list__item">C</li>
+                        <li class="skills-list__list__item">C++</li>
+                        <li class="skills-list__list__item">Erlang</li>
+                        <li class="skills-list__list__item">Ocaml</li>
                     </ul>
                 </li>
-                <li class="skillslist__item">SQL</li>
-                <li class="skillslist__item">Linux</li>
-                <li class="skillslist__item">Trello</li>
-                <li class="skillslist__item">Agile Development</li>
-                <li class="skillslist__item">Git</li>
-                <li class="skillslist__item">Time Management</li>
-                <li class="skillslist__item">Team Communication</li>
+                <li class="skills-list__item">SQL</li>
+                <li class="skills-list__item">Linux</li>
+                <li class="skills-list__item">Trello</li>
+                <li class="skills-list__item">Agile Development</li>
+                <li class="skills-list__item">Git</li>
+                <li class="skills-list__item">Time Management</li>
+                <li class="skills-list__item">Team Communication</li>
             </ul>
         </section>
 
@@ -215,6 +245,17 @@
             <h2 class="section__title section__title--free-time">
                 How I spend my free time
             </h2>
+            <ul class="free-time-list">
+                <li class="free-time-list__item">Weight lifting</li>
+                <li class="free-time-list__item">Javelin</li>
+                <li class="free-time-list__item">Running</li>
+                <li class="free-time-list__item">Journaling</li>
+                <li class="free-time-list__item">Making abstract art</li>
+                <li class="free-time-list__item">Listening to music</li>
+                <li class="free-time-list__item">Spending time with friends and family</li>
+                <li class="free-time-list__item">Playing video games</li>
+            </ul>
+            <img src="./public/imgs/javelin.jpg" alt="a picture of Tristan Kensinger throwing a javelin">
         </section>
 
         <!-- projects -->
@@ -234,6 +275,7 @@
                         accurately scaling the explosion and city based on real life data, exporting assets to Unity,
                         and porting the finished product onto the web.
                     </p>
+                    <img src="./public/imgs/nukeMapExpo.jpg" alt="a picture from my senior design expo where I showcase Nuke Map">
                 </div>
             </div>
         </section>
@@ -247,6 +289,7 @@
                 <div class="award">
                     <h3>Upsilon Pi Epsilon</h3>
                     <p>Member of the international Computer Science Honor Society</p>
+                    <img src="./public/imgs/upeLogo.jpg" alt="a picture of the Upsilon Pi Epsilon logo">
                 </div>
 
                 <div class="award">
