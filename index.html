@@ -4,54 +4,62 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tristan Kensinger</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+        <!-- css links -->
         <link rel="stylesheet" href="./public/css/main.css">
-        <link 
-            rel="stylesheet" 
-            href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900%7CSource+Sans+Pro:300,900&display=swap"
-        >
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     </head>
 
     <body>
-        <!-- header -->
-        <header>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#intro" class="nav__link">Intro</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                    <li class="nav__item"><a href="#academics" class="nav__link">Academics</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Work Experience</a></li>
-                    <li class="nav__item"><a href="#leadership" class="nav__link">Leadership</a></li>
-                    <li class="nav__item"><a href="#volunteer" class="nav__link">Volunteer Work</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
-                    <li class="nav__item"><a href="#free-time" class="nav__link">Free Time</a></li>
-                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                    <li class="nav__item"><a href="#awards" class="nav__link">Awards</a></li>
-                </ul>
-            </nav>
-        </header>
+        <!-- navigation -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#intro" class="nav-link">Intro</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="#academics" class="nav-link">Academics</a></li>
+                        <li class="nav-item"><a href="#work" class="nav-link">Work Experience</a></li>
+                        <li class="nav-item"><a href="#leadership" class="nav-link">Leadership</a></li>
+                        <li class="nav-item"><a href="#volunteer" class="nav-link">Volunteer Work</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#free-time" class="nav-link">Free Time</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#awards" class="nav-link">Awards</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <!-- intro -->
-        <section class="intro" id="intro">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Tristan Kensinger</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">
-                Computer Science Student
-            </p>
-            <img src="./public/imgs/profilePic.jpg" alt="a picture of Tristan Kensinger smiling" class="intro__img">
+        <section id="intro">
+            <div class="container-fluid bg-light text-dark p-5">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="./public/imgs/profilePic.jpg" alt="a picture of Tristan Kensinger smiling">
+                    <div class="card-body">
+                        <h5 class="card-title">Hi, I am <strong>Tristan Kensinger</strong></h5>
+                        <p class="card-text">Computer Science Student</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- academics -->
-        <section class="academics" id="academics">
-            <h2 class="section__title section__title--academics">
-                My academic career
-            </h2>
+        <section id="academics">
+            <div class="container-fluid bg-dark text-light">
+                <div class="row">
+                    <h2 class="text-center">My academic career</h2>
+                </div>
+                <div class="row">
+
+                </div>
+            </div>
+            
             <div class="highlights">
                 <div class="highlight">
                     <h3>GPA</h3>
@@ -323,5 +331,11 @@
                 </li>
             </ul>
         </footer>
+
+        <!-- js links -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="./public/js/script.js"></script>
     </body>
 </html>
