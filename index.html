@@ -39,7 +39,7 @@
         <!-- intro -->
         <section id="intro">
             <div class="container-fluid bg-light text-dark p-5">
-                <div class="card mx-auto" style="width: 18rem;">
+                <div class="card mx-auto bg-dark text-light" style="width: 18rem;">
                     <img class="card-img-top" src="./public/imgs/profilePic.jpg" alt="a picture of Tristan Kensinger smiling">
                     <div class="card-body">
                         <h5 class="card-title">Hi, I am <strong>Tristan Kensinger</strong></h5>
@@ -94,18 +94,20 @@
 
         <!-- about -->
         <section id="about">
-            <div class="container-fluid bg-light text-dark">
+            <div class="container-fluid bg-light text-dark mb-3">
                 <div class="row">
                     <h2 class="text-center">About me</h2>
                 </div>
-                <div class="card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="./public/imgs/aboutPic.jpg" alt="a picture of Tristan Kensinger smiling on a beach">
-                    <div class="card-body">
-                        <p class="card-text">
-                            I am currently a senior studying computer science with a minor in pure & applied mathematics
-                            at Stevens Institute of Technology. My graduation date is December 2022 and I am currently looking
-                            for a software engineering role for the summer of 2022.
-                        </p>
+                <div class="row">
+                    <div class="card mx-auto bg-dark text-light" style="width: 18rem;">
+                        <img class="card-img-top" src="./public/imgs/aboutPic.jpg" alt="a picture of Tristan Kensinger smiling on a beach">
+                        <div class="card-body">
+                            <p class="card-text">
+                                I am currently a senior studying computer science with a minor in pure & applied mathematics
+                                at Stevens Institute of Technology. My graduation date is December 2022 and I am currently looking
+                                for a software engineering role for the summer of 2022.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -150,97 +152,111 @@
         </section>
 
         <!-- leadership -->
-        <section class="leadership" id="leadership">
-            <h2 class="section__title section__title--leadership">
-                My leadership experience
-            </h2>
-            <div class="leaderhip-jobs">
-                <div class="leaderhip-job">
-                    <h3>Vice President and House Manager of Chi Psi Fraternity</h3>
-                    <p>
-                        My responsibilities include leading 20+ brothers, budgeting an $8,000 annual budget, assuring
-                        the house is fully operational in accordance to safety procedures, managing upkeep of household
-                        appliances, machinery, plumbing, water, heating, etc., and organizing room selection, and weekly cleanups.
-                    </p>
-                    <img src="./public/imgs/chiPsiLogo.jpg" alt="a picture of the Chi Psi Fraternity logo">
+        <section id="leadership">
+            <div class="container-fluid bg-light text-dark">
+                <div class="row">
+                    <h2 class="text-center">My leadership experience</h2>
                 </div>
-
-                <div class="leaderhip-job">
-                    <h3>Emerging Leaders Program at Stevens Institute of Technology</h3>
-                    <p>
-                        I attended an optional semester long class which aimed to make students better leaders on and off campus. <br>
-                        9/2019-12/2019
-                    </p>
-                </div>
-
-                <div class="leaderhip-job">
-                    <h3>Founder of the Computer Science Club at Pocono Mountain East Highschool</h3>
-                    <p>
-                        My responsibilities included proposing the idea to the principle and school board, then
-                        implementing my idea through finding a proctor, advertising the club, creating plans,
-                        running meetings, tutoring those new to computer science, and assuring the club met school policies.
-                    </p>
-                    <img src="./public/imgs/highschoolLogo.jpg" alt="a picture of the Pocono Mountain East High School logo">
+                <div class="row">
+                    <div class="card col-sm-11 col-lg-3 text-light bg-dark mx-auto my-3">
+                        <img class="card-img-top" src="./public/imgs/chiPsiLogo.jpg" alt="a picture of the Chi Psi Fraternity logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Vice President and House Manager of Chi Psi Fraternity</h5>
+                            <p class="card-text">
+                                My responsibilities include leading 20+ brothers, budgeting an $8,000 annual budget, assuring
+                                the house is fully operational in accordance to safety procedures, managing upkeep of household
+                                appliances, machinery, plumbing, water, heating, etc., and organizing room selection, and weekly cleanups.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-sm-11 col-lg-3 text-light bg-dark mx-auto my-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Emerging Leaders Program at Stevens Institute of Technology</h5>
+                            <p class="card-text">
+                                I attended an optional semester long class which aimed to make students better leaders on and off campus. <br>
+                                9/2019-12/2019
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-sm-11 col-lg-3 text-light bg-dark mx-auto my-3">
+                        <img class="card-img-top" src="./public/imgs/highschoolLogo.jpg" alt="a picture of the Pocono Mountain East High School logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Founder of the Computer Science Club at Pocono Mountain East Highschool</h5>
+                            <p class="card-text">
+                                My responsibilities included proposing the idea to the principle and school board, then
+                                implementing my idea through finding a proctor, advertising the club, creating plans,
+                                running meetings, tutoring those new to computer science, and assuring the club met school policies.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- volunteer -->
-        <section class="volunteer" id="volunteer">
-            <h2 class="section__title section__title--volunteer">
-                My volunteer work
-            </h2>
-            <div class="volunteer-jobs">
-                <div class="volunteer-job">
-                    <h3>Listener on 7 Cups</h3>
-                    <p>
-                        I have volunteered 47 hours and exchanged over 3,420 messages with 41 people looking for
-                        emotional support with the organization 7 Cups, an online on-demand emotional health and therapy service. <br>
-                        8/2020-Present
-                    </p>
-                    <img src="./public/imgs/7cupsLogo.png" alt="a picture of the 7 Cups logo">
+        <section id="volunteer">
+            <div class="container-fluid bg-dark text-light pb-5 pt-3">
+                <div class="row">
+                    <h2 class="text-center">My volunteer work</h2>
+                </div>
+                <div class="row">
+                    <div class="card mx-auto bg-light text-dark" style="width: 18rem;">
+                        <img class="card-img-top" src="./public/imgs/7cupsLogo.png" alt="a picture of the 7 Cups logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Listener on 7 Cups</h5>
+                            <p class="card-text">
+                                I have volunteered 47 hours and exchanged over 3,420 messages with 41 people looking for
+                                emotional support with the organization 7 Cups, an online on-demand emotional health and therapy service. <br>
+                                8/2020-Present
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- skills -->
-        <section class="skills" id="skills">
-            <h2 class="section__title section__title--skills">
-                My skills in computer science
-            </h2>
-            <ul class="skills-list">
-                <li class="skills-list__item">Web Development</li>
-                <li class="skills-list__item">
-                    <ul class="skills-list__list">
-                        <li class="skills-list__list__item">Javascript</li>
-                        <li class="skills-list__list__item">HTML</li>
-                        <li class="skills-list__list__item">CSS</li>
-                        <li class="skills-list__list__item">Node</li>
-                        <li class="skills-list__list__item">Ajax</li>
-                        <li class="skills-list__list__item">JQuery</li>
-                        <li class="skills-list__list__item">Handlebars</li>
+        <section id="skills">
+            <div class="container-fluid bg-light text-dark">
+                <div class="row">
+                    <h2 class="text-center">My skills in computer science</h2>
+                </div>
+                <div class="row mx-auto">
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-dark">Web Development</li>
+                        <li class="list-group-item list-group-item-dark">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-secondary">Javascript</li>
+                                <li class="list-group-item list-group-item-secondary">HTML</li>
+                                <li class="list-group-item list-group-item-secondary">CSS</li>
+                                <li class="list-group-item list-group-item-secondary">Node</li>
+                                <li class="list-group-item list-group-item-secondary">Ajax</li>
+                                <li class="list-group-item list-group-item-secondary">JQuery</li>
+                                <li class="list-group-item list-group-item-secondary">Handlebars</li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-group-item-dark">Programming Languages</li>
+                        <li class="list-group-item list-group-item-dark">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-secondary">Java</li>
+                                <li class="list-group-item list-group-item-secondary">Javascript</li>
+                                <li class="list-group-item list-group-item-secondary">Python</li>
+                                <li class="list-group-item list-group-item-secondary">C</li>
+                                <li class="list-group-item list-group-item-secondary">C++</li>
+                                <li class="list-group-item list-group-item-secondary">Erlang</li>
+                                <li class="list-group-item list-group-item-secondary">Ocaml</li>
+                            </ul>
+                        </li>
+                        <li class="list-group-item list-group-item-dark">SQL</li>
+                        <li class="list-group-item list-group-item-dark">Linux</li>
+                        <li class="list-group-item list-group-item-dark">Trello</li>
+                        <li class="list-group-item list-group-item-dark">Agile Development</li>
+                        <li class="list-group-item list-group-item-dark">Git</li>
+                        <li class="list-group-item list-group-item-dark">Time Management</li>
+                        <li class="list-group-item list-group-item-dark">Team Communication</li>
                     </ul>
-                </li>
-                <li class="skills-list__item">Programming Languages</li>
-                <li class="skills-list__item">
-                    <ul class="skills-list__list">
-                        <li class="skills-list__list__item">Java</li>
-                        <li class="skills-list__list__item">Javascript</li>
-                        <li class="skills-list__list__item">Python</li>
-                        <li class="skills-list__list__item">C</li>
-                        <li class="skills-list__list__item">C++</li>
-                        <li class="skills-list__list__item">Erlang</li>
-                        <li class="skills-list__list__item">Ocaml</li>
-                    </ul>
-                </li>
-                <li class="skills-list__item">SQL</li>
-                <li class="skills-list__item">Linux</li>
-                <li class="skills-list__item">Trello</li>
-                <li class="skills-list__item">Agile Development</li>
-                <li class="skills-list__item">Git</li>
-                <li class="skills-list__item">Time Management</li>
-                <li class="skills-list__item">Team Communication</li>
-            </ul>
+                </div>
+            </div>   
         </section>
 
         <!-- contacts -->
