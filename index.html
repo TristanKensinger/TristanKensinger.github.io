@@ -27,7 +27,6 @@
                         <li class="nav-item"><a href="#leadership" class="nav-link">Leadership</a></li>
                         <li class="nav-item"><a href="#volunteer" class="nav-link">Volunteer Work</a></li>
                         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                         <li class="nav-item"><a href="#free-time" class="nav-link">Free Time</a></li>
                         <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                         <li class="nav-item"><a href="#awards" class="nav-link">Awards</a></li>
@@ -200,7 +199,7 @@
                     <h2 class="text-center">My volunteer work</h2>
                 </div>
                 <div class="row">
-                    <div class="card mx-auto bg-light text-dark" style="width: 18rem;">
+                    <div class="card col-6 mx-auto bg-light text-dark">
                         <img class="card-img-top" src="./public/imgs/7cupsLogo.png" alt="a picture of the 7 Cups logo">
                         <div class="card-body">
                             <h5 class="card-title">Listener on 7 Cups</h5>
@@ -217,7 +216,7 @@
 
         <!-- skills -->
         <section id="skills">
-            <div class="container-fluid bg-light text-dark">
+            <div class="container-fluid bg-light text-dark pb-3 pt-3">
                 <div class="row">
                     <h2 class="text-center">My skills in computer science</h2>
                 </div>
@@ -259,94 +258,127 @@
             </div>   
         </section>
 
-        <!-- contacts -->
-        <section class="contacts" id="contacts">
-            <h2 class="section__title section__title--contacts">
-                Get in touch with me
-            </h2>
-            <a href="mailto:tkensing@stevens.edu" class="contacts_link">tkensing@stevens.edu</a>
-            <p>Phone number: 570-688-7860</p>
-            <ul class="contacts-list">
-                <li class="contacts-list__item">
-                    <a href="https://github.com/TristanKensinger" class="contacts-list__link">Github</a>
-                </li>
-                <li class="contacts-list__item">
-                    <a href="https://www.linkedin.com/in/tristan-kensinger/" class="contacts-list__link">LinkedIn</a>
-                </li>
-            </ul>
-        </section>
-
         <!-- free-time -->
-        <section class="free-time" id="free-time">
-            <h2 class="section__title section__title--free-time">
-                How I spend my free time
-            </h2>
-            <ul class="free-time-list">
-                <li class="free-time-list__item">Weight lifting</li>
-                <li class="free-time-list__item">Javelin</li>
-                <li class="free-time-list__item">Running</li>
-                <li class="free-time-list__item">Journaling</li>
-                <li class="free-time-list__item">Making abstract art</li>
-                <li class="free-time-list__item">Listening to music</li>
-                <li class="free-time-list__item">Spending time with friends and family</li>
-                <li class="free-time-list__item">Playing video games</li>
-            </ul>
-            <img src="./public/imgs/javelin.jpg" alt="a picture of Tristan Kensinger throwing a javelin">
+        <section id="free-time">
+            <div class="container-fluid bg-dark text-light pb-5 pt-3">
+                <div class="row">
+                    <h2 class="text-center">How I spend my free time</h2>
+                </div>
+                <div class="row">
+                    <div class="card col-8 mx-auto bg-light text-dark">
+                        <img class="card-img-top" src="./public/imgs/javelin.jpg" alt="a picture of Tristan Kensinger throwing a javelin">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Weight lifting</li>
+                                <li class="list-group-item">Javelin</li>
+                                <li class="list-group-item">Running</li>
+                                <li class="list-group-item">Journaling</li>
+                                <li class="list-group-item">Making abstract art</li>
+                                <li class="list-group-item">Listening to music</li>
+                                <li class="list-group-item">Spending time with friends and family</li>
+                                <li class="list-group-item">Playing video games</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- projects -->
-        <section class="projects" id="projects">
-            <h2 class="section__title section__title--projects">
-                My projects
-            </h2>
-            <div class="all-projects">
-                <div class="project">
-                    <h3>Lead Engineer of NUKEMAP3D Reborn</h3>
-                    <p>
-                        NUKEMAP3D was an interactive mashup of the original NUKEMAP and the Google Earth Browser Plugin
-                        created by Alex Wellerstein. With the discontinuation of the Google Earth Plugin, it is the
-                        goal of my senior design group to recreate this software. The aim of the project is to demonstrate
-                        the devastating power of nuclear weapons in the hopes of deterring support for nuclear warfare.
-                        My responsibilities include managing the engineering team, modeling the nuclear explosion in Blender,
-                        accurately scaling the explosion and city based on real life data, exporting assets to Unity,
-                        and porting the finished product onto the web.
-                    </p>
-                    <img src="./public/imgs/nukeMapExpo.jpg" alt="a picture from my senior design expo where I showcase Nuke Map">
+        <section id="projects">
+            <div class="container-fluid bg-light text-dark pb-3 pt-3">
+                <div class="row">
+                    <h2 class="text-center">My projects</h2>
+                </div>
+                <div class="row">
+                    <div class="card col-6 mx-auto bg-light text-dark">
+                        <img class="card-img-top" src="./public/imgs/nukeMapExpo.jpg" alt="a picture from my senior design expo where I showcase Nuke Map">
+                        <div class="card-body">
+                            <h5 class="card-title">Lead Engineer of NUKEMAP3D Reborn</h5>
+                            <p class="card-text">
+                                NUKEMAP3D was an interactive mashup of the original NUKEMAP and the Google Earth Browser Plugin
+                                created by Alex Wellerstein. With the discontinuation of the Google Earth Plugin, it is the
+                                goal of my senior design group to recreate this software. The aim of the project is to demonstrate
+                                the devastating power of nuclear weapons in the hopes of deterring support for nuclear warfare.
+                                My responsibilities include managing the engineering team, modeling the nuclear explosion in Blender,
+                                accurately scaling the explosion and city based on real life data, exporting assets to Unity,
+                                and porting the finished product onto the web.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- awards -->
-        <section class="awards" id="awards">
-            <h2 class="section__title section__title--awards">
-                The rewards I have received
-            </h2>
-            <div class="all-awards">
-                <div class="award">
-                    <h3>Upsilon Pi Epsilon</h3>
-                    <p>Member of the international Computer Science Honor Society</p>
-                    <img src="./public/imgs/upeLogo.jpg" alt="a picture of the Upsilon Pi Epsilon logo">
+        <section id="awards">
+            <div class="container-fluid bg-dark text-light pb-5 pt-3">
+                <div class="row">
+                    <h2 class="text-center">The rewards I have received</h2>
                 </div>
-
-                <div class="award">
-                    <h3>Google Tech Challenge</h3>
-                    <p>My team won second place after competing against other teams in programming and logic questions.</p>
+                <div class="row">
+                    <div class="card col-sm-11 col-lg-5 text-dark bg-light mx-auto my-3">
+                        <img class="card-img-top" src="./public/imgs/upeLogo.jpg" alt="a picture of the Upsilon Pi Epsilon logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Upsilon Pi Epsilon</h5>
+                            <p class="card-text">
+                                Member of the international Computer Science Honor Society
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-sm-11 col-lg-5 text-dark bg-light mx-auto my-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Tech Challenge</h5>
+                            <p class="card-text">
+                                My team won second place after competing against other teams in 
+                                programming and logic questions
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- footer -->
-        <footer>
-            <a href="mailto:tkensing@stevens.edu" class="footer__link">tkensing@stevens.edu</a>
-            <p>Phone number: 570-688-7860</p>
-            <ul class="footer-list">
-                <li class="footer-list__item">
-                    <a href="https://github.com/TristanKensinger" class="footer-list__link">Github</a>
-                </li>
-                <li class="footer-list__item">
-                    <a href="https://www.linkedin.com/in/tristan-kensinger/" class="footer-list__link">LinkedIn</a>
-                </li>
-            </ul>
+        <footer class="bg-light text-center text-dark pb-3">
+            <div class="row">
+                <h2 class="text-center">Contacts</h2>
+            </div>
+            <div class="row justify-content-center">
+                <!-- email -->
+                <a
+                    class="btn btn-primary btn-floating m-1 col-1"
+                    style="background-color: #dd4b39;"
+                    href="mailto:tkensing@stevens.edu"
+                    role="button"
+                >
+                    <i class="bi bi-envelope"></i>
+                </a>
+                <!-- github -->
+                <a
+                    class="btn btn-primary btn-floating m-1 col-1"
+                    style="background-color: #333333;"
+                    href="https://github.com/TristanKensinger"
+                    role="button"
+                >
+                    <i class="bi bi-github"></i>
+                </a>
+                <!-- linkedin -->
+                <a
+                    class="btn btn-primary btn-floating m-1 col-1"
+                    style="background-color: #0082ca;"
+                    href="https://www.linkedin.com/in/tristan-kensinger/"
+                    role="button"
+                >
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+            <div class="row justify-content-center">
+                <i class="bi bi-telephone"> 570-688-7860</i>
+            </div>
+            <div class="row justify-content-center">
+                <i class="bi bi-envelope"> tkensing@stevens.edu</i>
+            </div>
         </footer>
 
         <!-- js links -->
