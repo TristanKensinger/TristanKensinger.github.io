@@ -21,8 +21,8 @@
                 <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="#intro" class="nav-link">Intro</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
                         <li class="nav-item"><a href="#academics" class="nav-link">Academics</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
                         <li class="nav-item"><a href="#work" class="nav-link">Work Experience</a></li>
                         <li class="nav-item"><a href="#leadership" class="nav-link">Leadership</a></li>
                         <li class="nav-item"><a href="#volunteer" class="nav-link">Volunteer Work</a></li>
@@ -93,58 +93,59 @@
         </section>
 
         <!-- about -->
-        <section class="about" id="about">
-            <h2 class="section__title section__title--about">
-                About me
-            </h2>
-            <p class="section__subtitle section__subtitle--about">
-                I am currently a senior studying computer science with a minor in pure & applied mathematics
-                at Stevens Institute of Technology. My graduation date is December 2022 and I am currently looking
-                for a software engineering role for the summer of 2022.
-            </p>
-            <img src="./public/imgs/aboutPic.jpg" alt="a picture of Tristan Kensinger smiling on a beach" class="about__img">
+        <section id="about">
+            <div class="container-fluid bg-light text-dark">
+                <div class="row">
+                    <h2 class="text-center">About me</h2>
+                </div>
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img class="card-img-top" src="./public/imgs/aboutPic.jpg" alt="a picture of Tristan Kensinger smiling on a beach">
+                    <div class="card-body">
+                        <p class="card-text">
+                            I am currently a senior studying computer science with a minor in pure & applied mathematics
+                            at Stevens Institute of Technology. My graduation date is December 2022 and I am currently looking
+                            for a software engineering role for the summer of 2022.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- work -->
-        <section class="work" id="work">
-            <h2 class="section__title section__title--work">
-                My work experience
-            </h2>
-            <p class="section__subtitle section__subtitle--work">
-                Click on a job to view the description
-            </p>
-            <div class="jobs">
-                <a href="#" class="jobs__job">
-                    <img src="./public/imgs/sanofiLogo.jpg" alt="a picture of the Sanofi Pasteur logo" class="jobs__img">
-                </a>
-
-                <a href="#" class="jobs__job">
-                    <img src="./public/imgs/stevensLogo.png" alt="a picture of the Stevens Institute of Technology logo" class="jobs__img">
-                </a>
-                <!-- <div class="job">
-                    <h3>Automation Support Intern at Sanofi Pasteur, Swiftwater, PA</h3>
-                    <p>
-                        During my two summers as an intern in the automation support team I spearheaded efforts to upgrade
-                        the software on the human machine interfaces in the flu incubation building. I was responsible
-                        for initial research, planning and managing the project, frontend and backend development, updating
-                        databases, and creating a transition document for future employees to continue the project.
-                        Other projects included creating a new hire programming standards document and automated various
-                        manual tasks using python. <br>
-                        6/2020-8/2021
-                    </p>
-                    <img src="./public/imgs/sanofiLogo.jpg" alt="a picture of the Sanofi Pasteur logo">
+        <section id="work">
+            <div class="container-fluid bg-dark text-light pb-5 pt-3">
+                <div class="row">
+                    <h2 class="text-center">My work experience</h2>
                 </div>
-
-                <div class="job">
-                    <h3>Computational Assistant at Stevens Institute of Technology, Hoboken, NJ</h3>
-                    <p>
-                        I work for Norman J. Morgenstern Horing, author of Quantum Statistical Field Theory. My responsibilities
-                        include typing written manuscripts into publishable articles using Latex, formatting complicated
-                        equations into a readable format, and training new employees. <br>
-                        9/2019-Present
-                    </p>
-                    <img src="./public/imgs/stevensLogo.png" alt="a picture of the Stevens Institute of Technology logo">
-                </div> -->
+                <div class="row">
+                    <div class="card col-sm-11 col-lg-5 text-dark bg-light mx-auto my-3">
+                        <img class="card-img-top" src="./public/imgs/sanofiLogo.jpg" alt="a picture of the Sanofi Pasteur logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Automation Support Intern at Sanofi Pasteur, Swiftwater, PA</h5>
+                            <p class="card-text">
+                                During my two summers as an intern in the automation support team I spearheaded efforts to upgrade
+                                the software on the human machine interfaces in the flu incubation building. I was responsible
+                                for initial research, planning and managing the project, frontend and backend development, updating
+                                databases, and creating a transition document for future employees to continue the project.
+                                Other projects included creating a new hire programming standards document and automated various
+                                manual tasks using python. <br>
+                                6/2020-8/2021
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card col-sm-11 col-lg-5 text-dark bg-light mx-auto my-3">
+                        <img class="card-img-top" src="./public/imgs/stevensLogo.png" alt="a picture of the Stevens Institute of Technology logo">
+                        <div class="card-body">
+                            <h5 class="card-title">Computational Assistant at Stevens Institute of Technology, Hoboken, NJ</h5>
+                            <p class="card-text">
+                                I work for Norman J. Morgenstern Horing, author of Quantum Statistical Field Theory. My responsibilities
+                                include typing written manuscripts into publishable articles using Latex, formatting complicated
+                                equations into a readable format, and training new employees. <br>
+                                9/2019-Present
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
