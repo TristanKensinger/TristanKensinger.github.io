@@ -1,76 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>  
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
         <title>Tristan Kensinger</title>
-
-        <!-- css links -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="./public/css/main.css">
-
-        <!-- js links -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js" defer></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" defer integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" defer integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-        <script src="./public/js/script.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="./public/imgs/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./public/css/styles.css" rel="stylesheet" />
     </head>
-
-    <body>
-        <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Tristan Kensinger</a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item mx-auto">
-                            <a class="nav-link active" aria-current="page" href="./index.html">About</a>
-                        </li>
-                        <li class="nav-item mx-auto">
-                            <a class="nav-link" href="./resume.html">Resume</a>
-                        </li>
-                    </ul>
-                </div>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Tristan Kensinger</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./public/imgs/profilePic.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#leadership">Leadership</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
+                </ul>
             </div>
         </nav>
-
-        <!-- landing -->
-        <div class="container-fluid bg-light text-dark landing">
-            <div class="row">
-                <div class="col-lg-6 order-1 landing-text">
-                    <h1>Hi, I am <strong>Tristan!</strong></h1>
-                    <h3>Aspiring Software Engineer and Web Developer</h3>
-                    <p>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Tristan
+                        <span class="text-primary">Kensinger</span>
+                    </h1>
+                    <h3 class="text-secondary">
+                        Aspiring Software Engineer and Web Developer
+                    </h3>
+                    <div class="subheading mb-5">
+                        161 Cardinal Rd · Cresco, PA 18326 · (570) 688-7860 ·
+                        <a href="mailto:tristan.kensinger@gmail.com">tristan.kensinger@gmail.com</a>
+                    </div>
+                    <p class="lead">
                         I am currently a senior studying Computer Science at Stevens Institute of Technology
                         with my expected graduation in December 2022.
                     </p>
-                    <p>
+                    <p class="lead">
                         Upon graduation I will be completing my Master's degree in Computer Science and Machine
                         Learning at Stevens Institute of Technology with my graduate graduation in December 2023.
                     </p>
-                    <p>
+                    <p class="lead mb-5">
                         Over my academic career I have become very passionate in web development and plan on
                         pursuing a similar role in my future.
                     </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/tristan-kensinger/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/TristanKensinger"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="./public/pdf/Tristan_Kensinger_Resume.pdf"><i class="far fa-file"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data Analyst Intern</h3>
+                            <div class="subheading mb-3">Patterson-Kelley</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Fully developed the frontend and backend of a website that
+                                    allows users to log in and analyze their boiler's data in order to
+                                    improve efficiency and performance (Python, Flask, Jinja,
+                                    JavaScript, HTML, CSS, Bootstrap 5, Ajax, and jQuery).
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Researched and created documentation for the API used by the
+                                    boiler's hardware.
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Deployed my website with Google Cloud's App Engine.
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Created statistical tests and graphs to analyze boiler data in
+                                    order to improve efficiency and performance.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jun 2022 – Aug 2022 | East Stroudsburg, PA</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Programming Course Assistant</h3>
+                            <div class="subheading mb-3">Stevens Institute of Technology</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Hold office hours, run labs, and grade assignments.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Aug 2022 – present | Hoboken, NJ</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Automation Support Intern</h3>
+                            <div class="subheading mb-3">Sanofi Pasteur</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Spearheaded efforts in upgrading the HMI software for the Flu
+                                    Incubation Buildings.
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Responsible for initial research, planning and managing the
+                                    project, frontend and backend development, updating
+                                    databases, and creating a transition document for future
+                                    employees to continue the project.
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Created a new hire programming standards document and
+                                    automated various manual tasks using python.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jun 2020 – Aug 2021 | Swiftwater, PA</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Computational Assistant</h3>
+                            <div class="subheading mb-3">Stevens Institute of Technology</div>
+                            <ul class="fa-ul mb-0">
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    I work for Norman J. Morgenstern Horing, author of Quantum
+                                    Statistical Field Theory.                                    
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Type written manuscripts into publishable articles using
+                                    LaTeX.
+                                </li>
+                                <li>
+                                    <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                                    Format complicated equations and train new employees.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sep 2019 – present | Hoboken, NJ</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Stevens Institute of Technology</h3>
+                            <div class="subheading mb-3">B.S. Computer Science</div>
+                            <p>GPA: <b>3.91</b> out of 4.0</p>
+                            <p>Minor in Pure and Applied Mathematics</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sep 2019 – Dec 2022 | Hoboken, NJ</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Stevens Institute of Technology</h3>
+                            <div class="subheading mb-3">M.S. Computer Science & Machine Learning</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Dec 2022 – Dec 2023 | Hoboken, NJ</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Frontend Development</div>
                     <p>
-                        Feel free to contact me using one of my socials below or by emailing me at
-                        <a href="mailto:tristan.kensinger@gmail.com">tristan.kensinger@gmail.com.</a>
+                        HTML 5 · CSS 3 · JavaScript · Bootstrap 5 · Handlebars · Jinja · jQuery · Ajax
                     </p>
-                    <p class="landing-socials">
-                        <a href="https://github.com/TristanKensinger"><i class="bi bi-github"></i></a>
-                        <a href="https://www.linkedin.com/in/tristan-kensinger/"><i class="bi bi-linkedin"></i></a>
+                    <div class="subheading mb-3">Backend Development</div>
+                    <p>
+                        Node.js · Flask · Express.js · JavaScript · Python
+                    </p>
+                    <div class="subheading mb-3">Programming Languages</div>
+                    <p>
+                        Java · Python · C++ · C · JavaScript · OCAML · Erlang
+                    </p>
+                    <div class="subheading mb-3">Other</div>
+                    <p>
+                        MongoDB · SQL · Git · Linux · Windows · Figma · LaTeX                       
                     </p>
                 </div>
-                <div class="col-lg-6 order-lg-1 d-flex justify-content-center">
-                    <img src="./public/imgs/profilePic.jpg" class="img-fluid landing-img" alt="image of tristan smiling">
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Split</h3>
+                            <div class="subheading mb-3">JavaScript · Node.js · MongoDB · Figma</div>
+                            <p>
+                                A lightweight version of a speedrunning website that
+                                allows users to post their speedruns and take part in
+                                friendly forum posts.
+                            </p>
+                            <a class="project-link" href="https://github.com/TristanKensinger/Split">Project Link</a>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2022 – May 2022</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">NUKEMAP 3D Reborn</h3>
+                            <div class="subheading mb-3">Blender · Unity · C# · Figma</div>
+                            <p>
+                                A 3D version of the acclaimed website NUKEMAP
+                                under Alex Wellerstein. I was the lead engineer in
+                                charge of the 3D models and web integration as well
+                                as mathematical scaling of assets.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Sep 2021 – May 2022</span></div>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Leadership-->
+            <section class="resume-section" id="leadership">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Leadership</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Vice President and House Manager of Chi Psi Fraternity</h3>
+                            <p>
+                                Responsibilities included leading 20+ brothers, budgeting an
+                                $8,000 annual budget, assuring the house is fully operational in
+                                accordance to safety procedures, managing upkeep of household
+                                appliances, machinery, plumbing, water, heating, etc., and
+                                organizing room selection, and weekly cleanups
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jan 2022 – May 2022</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Courses-->
+            <section class="resume-section" id="courses">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Courses</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Algorithms
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Data Structures
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Computer Architecture
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Operating Systems
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Database Management
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Web Development
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Discrete Mathematics
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Project Management
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Programming Languages
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-circle fa-2xs"></i></span>
+                            Artificial Intelligence
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="./public/js/script.js"></script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     </body>
 </html>
